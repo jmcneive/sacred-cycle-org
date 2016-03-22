@@ -14,5 +14,5 @@ require('laravel-elixir-stylus');
  */
 
 elixir(function(mix) {
-    mix.stylus('app.styl');
+    mix.stylus('*.styl');
 });
